@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Shop</title>
+</head>
+<body>
+
+<h1>Pizza Shop</h1>
+<h4>Established in 1995, Blind Onion is a neighborhood pizza joint offering great honest pizza, sandwiches, salads, and craft beers. We offer a casual nostalgic fun atmosphere. Located in NE Portland, our restaurant has a strong focus on delicious pizza, making it a popular hangout that fits perfectly in this community.</h4>
+<button id=view-specials>View our specials</button>
+
+<div id="specials">
+    <div id="container-one">
+        <h2>Specials</h2>
+        <h3 id="special-1">Special Pizza 1</h3>
+        <img src="https://images.unsplash.com/photo-1589375890993-7b568c0b8b1c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzJ8fHBpenphfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"></img>
+        <p>Pizza ipsum dolor amet thin crust chicken wing sausage, mayo bianca mozzarella pesto hand tossed. NY style pizza bianca, philly steak green bell peppers stuffed black olives steak mozzarella.</p>
+        <button id="add-special-1" class="quantity-prompt">Select</button>
+        <div id="special-size-1"></div>  
+    </div>
+
+    <div id="container-2">
+        <h3 id ="special-2">Special Pizza 2</h3>
+        <img src="https://images.unsplash.com/photo-1571066811602-716837d681de?ixid=MXwxMjA3fDB8MHxzZWFyY2h8N3x8cGl6emF8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"></img>
+        <p>Banana peppers parmesan steak buffalo sauce sausage bbq rib pepperoni pesto garlic sauce pork chicken wing broccoli.</p>
+        <button id="add-special-2" class="quantity-prompt">Select</button>
+        <div id="special-size-2"></div>  
+    </div>
+
+    <div id="container-3">
+        <h3>Special Pizza 3</h3>
+        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8cGl6emF8ZW58MHx8MHw%3D&auto=format&fit=crop&w=600&q=60" class="contrast"></img>
+        <button id="add-special-3" class="quantity-prompt">Select</button>
+        <div id="special-size-3"></div>  
+    </div>
+
+    <div id="container-4">
+        <h3 id="special-4">Special Pizza 4</h3>
+        <img src="https://images.unsplash.com/photo-1594007654729-407eedc4be65?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fHBpenphfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" class="contrast"></img>
+        <p>Thin crust pizza roll bacon peppers green bell peppers thin crust stuffed crust. </p>
+        <button id="add-special-4" class="quantity-prompt">Select</button>
+        <div id="special-size-4"></div>  
+    </div>
+</div>
+  
+<div id="view-custom">
+
+    <button class="custom-pizza">Custom Pizza</button>
+    <div id="customSelections">
+
+        <p>Select a size</p>
+        <input type="radio" id="personal" name="size" value="personal" checked>
+        <label for="personal">Personal</label>
+        
+        <input type="radio" id="small" name="size" value="small" unchecked>
+        <label for="small">Small</label>
+        
+        <input type="radio" id="medium" name="size" value="medium" unchecked>
+        <label for="medium">Medium</label>
+    
+        <input type="radio" id="large" name="size" value="large" unchecked>
+        <label for="large">Large</label>
+        
+        <p>Select a crust</p>
+        <input type="radio" id="hand-tossed" name="crust" value="hand-tossed" checked>
+        <label for="hand-tossed">Hand Tossed</label>
+        
+        <input type="radio" id="thin-crust" name="crust" value="thin-crust" unchecked>
+        <label for="thin-crust">Thin Crust</label>
+        
+        <input type="radio" id="gluten-free" name="crust" value="gluten-free" unchecked>
+        <label for="gluten-free">Gluten-Free</label>
+        
+        <p>Select a sauce</p>
+        <input type="radio" id="marinara" name="sauce" value="marinara" checked>
+        <label for="marinara">Marinara</label>
+        
+        <input type="radio" id="barbeque" name="sauce" value="barbeque" unchecked>
+        <label for="barbeque">Barbeque</label>
+        
+        <input type="radio" id="garlic-parm" name="sauce" value="garlic-parm" unchecked>
+        <label for="garlic-parm">Garlic parmesean</label>   
+        
+        <p>Select meat</p>
+        <input type="checkbox" id="Pepperoni" name="meat" value="Pepperoni" unchecked>
+        <label for="Pepperoni">Pepperoni</label>
+    
+        <input type="checkbox" id="sausage" name="meat" value="sausage" unchecked>
+        <label for="sausage">Sausage</label>
+    
+        <input type="checkbox" id="ham" name="meat" value="ham" unchecked>
+        <label for="ham">Ham</label>   
+    
+        <input type="checkbox" id="chicken" name="meat" value="chicken" unchecked>
+        <label for="chicken">Chicken</label>  
+    
+        <input type="checkbox" id="bacon" name="meat" value="bacon" unchecked>
+        <label for="bacon">Bacon</label>    
+        
+        <p>Select veggies</p>
+        <input type="checkbox" id="olives" name="veggie" value="olives" unchecked>
+        <label for="olives">Black olives</label>
+        
+        <input type="checkbox" id="red-onion" name="veggie" value="red-onion" unchecked>
+        <label for="red-onion">Red onions</label>
+        
+        <input type="checkbox" id="pineapple" name="veggie" value="pineapple" unchecked>
+        <label for="pineapple">Pineapple</label>   
+        
+        <input type="checkbox" id="mushrooms" name="veggie" value="mushrooms" unchecked>
+        <label for="mushrooms">Mushrooms</label>  
+        
+        <input type="checkbox" id="jalepenos" name="veggie" value="jalepenos" unchecked>
+        <label for="jalepenos">Jalepenos</label>    
+        
+        <input type="checkbox" id="spinach" name="veggie" value="spinach" unchecked>
+        <label for="spinach">Spinach</label>    
+        
+        <button class="add" id="add-custom">Add to order</button>
+
+    </div>
+
+    <h2>Sides</h2>
+    <p>Housemade breadsticks</p>
+    <p>Housemade breadsticks with cheese</p>
+    <p>Side Ceasar Salad</p>
+    <p>Side House Salad</p>
+    <p>Side Chef's Salad</p>
+    <p>Soda (2-liter)</p>
+    <p>Large cookie</p>
+
+    <button id="view-total">View all items</button>
+    <div>
+        <p id="show-all-items"></p>
+    </div>
+
+</div>
+  
+<script src="js/scripts.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+</body>
+</html>
+
+
