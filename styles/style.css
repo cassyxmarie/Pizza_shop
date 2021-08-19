@@ -1,0 +1,12 @@
+html {
+  background: black;
+  color: white;
+}
+
+img {
+  max-width: 200px;
+}
+
+.contrast {
+filter: contrast(150%);
+}
